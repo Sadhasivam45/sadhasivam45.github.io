@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="style.css" rel="stylesheet">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <form action="#" method="post" onsubmit=" return valid(event)">
+            <ul>
+                <li><input type="text" id="fName" placeholder="First Name"></li>          
+                <li><input type="text" id="lName" placeholder="Last Name" ></li>
+                <li><input type="text" id="phNum" placeholder="Phone Number"></li>
+                <li><input type="password" id="pwd" placeholder="Create Password"></li>
+                <li><input type="password" id="cpwd" placeholder="Confirm Password"></li>
+                <li><input type="text" id="address" placeholder="Address: Door No, Street Name"></li>
+                <li><input type="text" id="address2" placeholder="Address: Area, Locality, Pincode"></li>
+                <div id="error"></div> 
+                <li><input type="submit" value="Sign Up" id="btn"></li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>
