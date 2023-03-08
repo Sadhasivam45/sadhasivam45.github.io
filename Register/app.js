@@ -4,7 +4,7 @@ function valid(event){
     var fName=document.getElementById("fName"); 
     var exp1=/^[a-zA-Z]+$/;
     if(fName.value==""){
-        error.innerHTML="Enter First your Name";
+        error.innerHTML="Enter your first Name";
         fName.focus();
         return false;
     }
